@@ -34,7 +34,25 @@ trait Approvable
             'approver_type' => get_class($approver),
             'approvable_id' => $this->id,
             'approvable_type' => get_class($this),
-            'state' => 'accepted',
+            'state' => 'approved',
+            'review' => $review
+        ]);
+
+        return $this->storeApproval($approval);
+    }
+
+    public function disapprove(Model $approver, string $review = null)
+    {
+        $this->checkIfApproverIsEmpty($approver);
+
+        $model = $this->getApprovalModel();
+        $approval = new $model;
+        $approval = $approval->fill([
+            'approver_id' => $approver->id,
+            'approver_type' => get_class($approver),
+            'approvable_id' => $this->id,
+            'approvable_type' => get_class($this),
+            'state' => 'disapproved',
             'review' => $review
         ]);
 

@@ -12,7 +12,7 @@ class CreateReviewsTable extends Migration
             $table->bigIncrements('id')->index();
             $table->morphs('approver');
             $table->morphs('approvable');//class name
-            $table->enum('state', ['accepted', 'denied'])->default('accept');
+            $table->enum('state', ['approved', 'disapproved'])->default('approved');
             $table->text('review')->nullable();
             $table->softDeletes();
             $table->timestamps();

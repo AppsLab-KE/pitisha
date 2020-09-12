@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ff014a0-2af4-46fd-bf9f-e6516f1d79ce" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/pitisha.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pitisha.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/reviewable.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2018_10_12_000000_create_reviews_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Models/Review.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ReviewableServiceProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Traits/HasReview.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Traits/ReviewHasRelation.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Traits/Reviewable.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/ModelFeatureTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/ModelFeatureTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/TestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TestCase.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2018_10_12_000000_create_approvals_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2018_10_12_000000_create_approvals_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Traits/Approvable.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Traits/Approvable.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +116,7 @@
       <option name="presentableId" value="Default" />
       <updated>1599914782946</updated>
       <workItem from="1599914784282" duration="5051000" />
-      <workItem from="1599954355244" duration="305000" />
+      <workItem from="1599954355244" duration="644000" />
     </task>
     <servers />
   </component>
