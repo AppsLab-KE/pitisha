@@ -1,0 +1,48 @@
+{
+    "name": "appslabke/reviewable",
+    "description": "This is package help you add reviews to any model and/or make any model a reviewer",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "appslab",
+        "reviews",
+        "laravel reviews"
+    ],
+    "support": {
+        "issues": "https://github.com/AppsLab-KE/reviewable/issues"
+    },
+    "homepage": "https://appslab.co.ke",
+    "authors": [
+        {
+            "name": "Marvin Collins",
+            "email": "marvin@appslab.co.ke",
+            "role": "Senior Software Engineer",
+            "homepage": "https://appslab.co.ke"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {
+        "php": "^7.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.1",
+        "mockery/mockery": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Reviewable\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Reviewable\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Reviewable\\ReviewableServiceProvider"
+            ]
+        }
+    }
+}
