@@ -1,16 +1,16 @@
 <?php
 
 
-namespace Reviewable\Tests;
+namespace src\Tests;
 
-use Reviewable\ReviewableServiceProvider;
+use src\ApprovableServiceProvider;
 
 class TestCase extends \Orchestra\Testbench\TestCase
 {
     protected function getPackageProviders($app)
     {
         return  [
-            ReviewableServiceProvider::class
+            ApprovableServiceProvider::class
         ];
     }
 

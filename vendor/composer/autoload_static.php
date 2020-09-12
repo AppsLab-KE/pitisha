@@ -63,8 +63,6 @@ class ComposerStaticInit7fce576e224e30346890cdbb2754cce2
         ),
         'R' => 
         array (
-            'Reviewable\\Tests\\' => 17,
-            'Reviewable\\' => 11,
             'Ramsey\\Uuid\\' => 12,
         ),
         'P' => 
@@ -73,6 +71,8 @@ class ComposerStaticInit7fce576e224e30346890cdbb2754cce2
             'Psr\\Log\\' => 8,
             'Psr\\Container\\' => 14,
             'Prophecy\\' => 9,
+            'Pitisha\\Tests\\' => 14,
+            'Pitisha\\' => 8,
             'PhpOption\\' => 10,
         ),
         'O' => 
@@ -219,14 +219,6 @@ class ComposerStaticInit7fce576e224e30346890cdbb2754cce2
         array (
             0 => __DIR__ . '/..' . '/symfony/console',
         ),
-        'Reviewable\\Tests\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/tests',
-        ),
-        'Reviewable\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/src',
-        ),
         'Ramsey\\Uuid\\' => 
         array (
             0 => __DIR__ . '/..' . '/ramsey/uuid/src',
@@ -246,6 +238,14 @@ class ComposerStaticInit7fce576e224e30346890cdbb2754cce2
         'Prophecy\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpspec/prophecy/src/Prophecy',
+        ),
+        'Pitisha\\Tests\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/tests',
+        ),
+        'Pitisha\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
         ),
         'PhpOption\\' => 
         array (

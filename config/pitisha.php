@@ -12,7 +12,7 @@ return [
    */
 
     'models' => [
-        'review' => \Reviewable\Models\Review::class,
+        'approval' => \Pitisha\Models\Approval::class,
     ],
 
     /*
@@ -24,6 +24,13 @@ return [
   |
   */
     'tables' => [
-        'review' => "reviews",
+        'approval' => "approvals",
     ],
+
+    /**
+     * Allow soft delete
+     */
+
+    'softdelete' => true,
+    'level' => 1,
 ];

@@ -1,15 +1,16 @@
 {
-    "name": "appslabke/reviewable",
-    "description": "This is package help you add reviews to any model and/or make any model a reviewer",
+    "name": "appslabke/pitisha",
+    "description": "Pitisha package help you add approval process in your application with multi-level approvals",
     "type": "library",
     "license": "MIT",
     "keywords": [
         "appslab",
-        "reviews",
-        "laravel reviews"
+        "appslab ke",
+        "Pitisha",
+        "laravel approval"
     ],
     "support": {
-        "issues": "https://github.com/AppsLab-KE/reviewable/issues"
+        "issues": "https://github.com/AppsLab-KE/pitisha/issues"
     },
     "homepage": "https://appslab.co.ke",
     "authors": [
@@ -17,7 +18,7 @@
             "name": "Marvin Collins",
             "email": "marvin@appslab.co.ke",
             "role": "Senior Software Engineer",
-            "homepage": "https://appslab.co.ke"
+            "homepage": "https://marvinhosea.pro"
         }
     ],
     "minimum-stability": "beta",
@@ -30,18 +31,18 @@
     },
     "autoload": {
         "psr-4": {
-            "Reviewable\\": "src/"
+            "Pitisha\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Reviewable\\Tests\\": "tests/"
+            "Pitisha\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Reviewable\\ReviewableServiceProvider"
+                "Pitisha\\ApprovableServiceProvider"
             ]
         }
     }

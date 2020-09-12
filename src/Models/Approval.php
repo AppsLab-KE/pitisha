@@ -1,15 +1,15 @@
 <?php
 
 
-namespace Reviewable\Models;
+namespace Pitisha\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
-use Reviewable\Traits\ReviewHasRelation;
+use Pitisha\Traits\ApprovalHasRelation;
 
-class Review extends Model
+class Approval extends Model
 {
-    use ReviewHasRelation, SoftDeletes;
+    use ApprovalHasRelation, SoftDeletes;
 
     protected $dates = [
         'deleted_at'
@@ -20,7 +20,7 @@ class Review extends Model
     public function __construct(array $attributes = [])
     {
         parent::__construct($attributes);
-        $this->setTable(config('reviewable.tables.review'));
+        $this->setTable(config('pitisha.tables.approval'));
     }
 
     protected $guarded = [

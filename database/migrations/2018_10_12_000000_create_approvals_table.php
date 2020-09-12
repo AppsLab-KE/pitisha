@@ -8,14 +8,12 @@ class CreateReviewsTable extends Migration
 {
     public function up()
     {
-        Schema::create('reviews', function (Blueprint $table) {
+        Schema::create('approvals', function (Blueprint $table) {
             $table->bigIncrements('id')->index();
-            $table->morphs('reviewer');
-            $table->morphs('reviewable');//class name
-            $table->boolean('flagged')->default(false);
-            $table->string('title')->nullable();
+            $table->morphs('approver');
+            $table->morphs('approvable');//class name
+            $table->enum('state', ['accepted', 'denied'])->default('accept');
             $table->text('review')->nullable();
-            $table->double('rating')->default(0);
             $table->softDeletes();
             $table->timestamps();
         });
@@ -23,6 +21,6 @@ class CreateReviewsTable extends Migration
 
     public function down()
     {
-        Schema::dropIfExists('reviews');
+        Schema::dropIfExists('approvals');
     }
 }
