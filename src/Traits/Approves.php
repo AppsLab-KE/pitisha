@@ -51,6 +51,6 @@ trait Approves
     public function haveApproved(Model $approvable)
     {
         $totalApprovals = $this->approvals()->where('approvable_id', $approvable->id)->get();
-        return (bool) count($totalApprovals) >= config('pitisha.approval_limit');
+        return count($totalApprovals) >= config('pitisha.approval_limit');
     }
 }
