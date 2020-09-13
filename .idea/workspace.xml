@@ -4,12 +4,7 @@
     <list default="true" id="5ff014a0-2af4-46fd-bf9f-e6516f1d79ce" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/pitisha.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/pitisha.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2018_10_12_000000_create_approvals_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2018_10_12_000000_create_approvals_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Models/Approval.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Approval.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Traits/Approvable.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Traits/Approvable.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Traits/ApprovalHasRelation.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Traits/ApprovalHasRelation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Traits/Approves.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Traits/Approves.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/TestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TestCase.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +106,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Markdown" />
     <property name="ignore_missing_gitignore" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -123,7 +121,7 @@
       <updated>1599914782946</updated>
       <workItem from="1599914784282" duration="5051000" />
       <workItem from="1599954355244" duration="6063000" />
-      <workItem from="1599996759054" duration="1164000" />
+      <workItem from="1599996759054" duration="3512000" />
     </task>
     <servers />
   </component>
@@ -135,6 +133,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="616" y="27" width="684" height="1049" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1599916051508" />
+    <state x="471" y="188" key="SettingsEditor" timestamp="1600004213594">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="471" y="188" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1600004213594" />
     <state x="744" y="202" width="412" height="695" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1599915061004">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

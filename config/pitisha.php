@@ -38,4 +38,9 @@ return [
      */
     'level' => 1,
 
+    /**
+     * the percentage of accepted approval
+     */
+    'approval_percentage' => 60
+
 ];

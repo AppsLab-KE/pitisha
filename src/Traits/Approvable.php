@@ -62,7 +62,7 @@ trait Approvable
     public function approve(Model $approver, $type, string $review = null)
     {
         if (!in_array($type, ['accepted', 'declined'])) {
-            throw new \Exception("The approval type can only be approved or disapproved");
+            throw new \Exception("The approval type can only be accepted or declined");
         }
 
         $approval = $this->approvalValidation($approver);
@@ -131,7 +131,8 @@ trait Approvable
             'current_level' => $totalApprovals,
             'total_accepted' => $acceptedApprovals,
             'total_declined' => $declinedApprovals,
-            'percentage' => (float) sprintf("%0.2f", $totalApprovals ? (($totalApprovals / $this->getApprovalLevel()) * 100) : 0)
+            'is_complete' => $this->getApprovalLevel() <= $totalApprovals,
+            'percentage' => (float) sprintf("%0.2f", $totalApprovals ? (($acceptedApprovals / $this->getApprovalLevel()) * 100) : 0)
         ];
     }
 
