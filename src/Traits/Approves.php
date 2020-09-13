@@ -2,6 +2,8 @@
 
 namespace Pitisha\Traits;
 
+use Illuminate\Database\Eloquent\Model;
+
 trait Approves
 {
     /**
@@ -40,5 +42,15 @@ trait Approves
         }
 
         return $approvals->get();
+    }
+
+    /**
+     * @param Model $approvable
+     * @return bool
+     */
+    public function haveApproved(Model $approvable)
+    {
+        $totalApprovals = $this->approvals()->where('approvable_id', $approvable->id)->get();
+        return (bool) count($totalApprovals) >= config('pitisha.approval_limit');
     }
 }
