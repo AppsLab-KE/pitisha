@@ -89,6 +89,9 @@ trait Approvable
     {
         $level = $this->getApprovalLevel();
         $totalModelApprovals = $approver->approvals()->where('approvable_id', $this->id)->count();
+        if ($totalModelApprovals >= config('pitisha.approval_limit')) {
+            return false;
+        }
         if ($level <= $totalModelApprovals) {
             return  false;
         }

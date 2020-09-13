@@ -41,6 +41,11 @@ return [
     /**
      * the percentage of accepted approval
      */
-    'approval_percentage' => 60
+    'approval_percentage' => 60,
+
+    /**
+     * The number of times a user can approve a model
+     */
+    'approval_limit' => 1
 
 ];
