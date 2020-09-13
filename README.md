@@ -1,4 +1,4 @@
-# Laravel Reviews & Reviews Monitor
+# Pitisha ~ Laravel approval package
 
 #### Installation
 

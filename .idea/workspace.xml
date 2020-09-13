@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ff014a0-2af4-46fd-bf9f-e6516f1d79ce" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/pitisha.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/pitisha.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Traits/Approvable.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Traits/Approvable.php" afterDir="false" />
-    </list>
+    <list default="true" id="5ff014a0-2af4-46fd-bf9f-e6516f1d79ce" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -126,7 +122,7 @@
       <updated>1599914782946</updated>
       <workItem from="1599914784282" duration="5051000" />
       <workItem from="1599954355244" duration="6063000" />
-      <workItem from="1599996759054" duration="3512000" />
+      <workItem from="1599996759054" duration="4241000" />
     </task>
     <servers />
   </component>
