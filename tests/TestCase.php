@@ -3,7 +3,7 @@
 
 namespace src\Tests;
 
-use src\ApprovableServiceProvider;
+use Pitisha\ApprovableServiceProvider;
 
 class TestCase extends \Orchestra\Testbench\TestCase
 {

@@ -32,5 +32,10 @@ return [
      */
 
     'softdelete' => true,
+
+    /**
+     * Approval level
+     */
     'level' => 1,
+
 ];
